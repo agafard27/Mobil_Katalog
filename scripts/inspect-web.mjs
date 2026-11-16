@@ -1,0 +1,30 @@
+import {chromium} from '../.tools/node_modules/playwright-core/index.mjs';
+import fs from 'node:fs/promises';
+const browser = await chromium.launch({executablePath:process.env.CHROME_PATH ?? 'C:/Program Files/Google/Chrome/Application/chrome.exe', headless:true});
+const errors = [];
+try {
+  const page = await browser.newPage({viewport:{width:390,height:844},deviceScaleFactor:2});
+  page.on('pageerror', error => errors.push(error.message));
+  await page.goto('http://127.0.0.1:8080');
+  await page.locator('flutter-view').waitFor();
+  await page.waitForTimeout(3000);
+  const placeholder=page.locator('flt-semantics-placeholder');
+  if(await placeholder.count()) await placeholder.evaluate(el=>el.click());
+  await page.waitForTimeout(1000);
+  await fs.mkdir('docs/screenshots',{recursive:true});
+  await page.screenshot({path:'docs/screenshots/01-ana-sayfa.png'});
+  await page.getByRole('tab',{name:'Katalog',exact:true}).click();
+  await page.waitForTimeout(500);
+  await page.screenshot({path:'docs/screenshots/02-katalog.png'});
+  await page.getByRole('textbox',{name:'Ürün veya kategori ara'}).fill('HomePod Mini');
+  await page.waitForTimeout(300);
+  await page.getByRole('group',{name:'Ses HomePod Mini $99,00',exact:true}).click();
+  await page.waitForTimeout(500);
+  await page.screenshot({path:'docs/screenshots/03-urun-detayi.png'});
+  await page.getByRole('button',{name:'Sepete ekle',exact:true}).click();
+  await page.getByRole('button',{name:'Sepeti aç',exact:true}).click();
+  await page.waitForTimeout(500);
+  await page.screenshot({path:'docs/screenshots/04-sepet.png'});
+  if(errors.length) throw Error(errors.join('\n'));
+  console.log('Chrome release kontrolü geçti: gerçek JSON/görseller, katalog, arama, detay ve sepete ekleme. 4 ekran görüntüsü alındı.');
+} finally { await browser.close(); }

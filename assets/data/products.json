@@ -1,0 +1,322 @@
+[
+  {
+    "id": 1,
+    "name": "iPhone 15 Pro",
+    "category": "Telefon",
+    "tagline": "Her gün için daha fazlası.",
+    "description": "Günlük hayatınız, fotoğraflarınız ve sevdiğiniz uygulamalar için tasarlanmış bir telefon. Güçlü performansı ve özenli tasarımı bir arada keşfedin.",
+    "price": 999,
+    "currency": "USD",
+    "image": "assets/images/iphone.png",
+    "specs": {
+      "chip": "A17 Pro",
+      "material": "Titanium",
+      "camera": "48MP Main"
+    },
+    "featured": true
+  },
+  {
+    "id": 2,
+    "name": "iPhone 15",
+    "category": "Telefon",
+    "tagline": "Her gün için daha fazlası.",
+    "description": "Günlük hayatınız, fotoğraflarınız ve sevdiğiniz uygulamalar için tasarlanmış bir telefon. Güçlü performansı ve özenli tasarımı bir arada keşfedin.",
+    "price": 799,
+    "currency": "USD",
+    "image": "assets/images/iphone_pink.png",
+    "specs": {
+      "chip": "A16 Bionic",
+      "material": "Aluminum",
+      "camera": "48MP Main"
+    },
+    "featured": false
+  },
+  {
+    "id": 3,
+    "name": "iPhone 15 Plus",
+    "category": "Telefon",
+    "tagline": "Her gün için daha fazlası.",
+    "description": "Günlük hayatınız, fotoğraflarınız ve sevdiğiniz uygulamalar için tasarlanmış bir telefon. Güçlü performansı ve özenli tasarımı bir arada keşfedin.",
+    "price": 899,
+    "currency": "USD",
+    "image": "assets/images/iphone_yellow.png",
+    "specs": {
+      "chip": "A16 Bionic",
+      "display": "6.7\"",
+      "battery": "All-day"
+    },
+    "featured": false
+  },
+  {
+    "id": 4,
+    "name": "iPhone 14",
+    "category": "Telefon",
+    "tagline": "Her gün için daha fazlası.",
+    "description": "Günlük hayatınız, fotoğraflarınız ve sevdiğiniz uygulamalar için tasarlanmış bir telefon. Güçlü performansı ve özenli tasarımı bir arada keşfedin.",
+    "price": 699,
+    "currency": "USD",
+    "image": "assets/images/iphone_blue.png",
+    "specs": {
+      "chip": "A15 Bionic",
+      "display": "6.1\"",
+      "camera": "Dual system"
+    },
+    "featured": false
+  },
+  {
+    "id": 5,
+    "name": "iPhone SE",
+    "category": "Telefon",
+    "tagline": "Her gün için daha fazlası.",
+    "description": "Günlük hayatınız, fotoğraflarınız ve sevdiğiniz uygulamalar için tasarlanmış bir telefon. Güçlü performansı ve özenli tasarımı bir arada keşfedin.",
+    "price": 429,
+    "currency": "USD",
+    "image": "assets/images/iphone_se.png",
+    "specs": {
+      "chip": "A15 Bionic",
+      "display": "4.7\"",
+      "id": "Touch ID"
+    },
+    "featured": false
+  },
+  {
+    "id": 6,
+    "name": "MacBook Pro 16\"",
+    "category": "Bilgisayar",
+    "tagline": "Fikirlerinize güç katın.",
+    "description": "Üretmek, çalışmak ve yeni fikirler geliştirmek için güçlü bir yardımcı. Geniş ekranı ve sade tasarımıyla çalışma alanınızı tamamlar.",
+    "price": 2499,
+    "currency": "USD",
+    "image": "assets/images/macbook.png",
+    "specs": {
+      "chip": "M3 Max",
+      "display": "Liquid Retina XDR",
+      "battery": "22 hrs"
+    },
+    "featured": false
+  },
+  {
+    "id": 7,
+    "name": "MacBook Pro 14\"",
+    "category": "Bilgisayar",
+    "tagline": "Fikirlerinize güç katın.",
+    "description": "Üretmek, çalışmak ve yeni fikirler geliştirmek için güçlü bir yardımcı. Geniş ekranı ve sade tasarımıyla çalışma alanınızı tamamlar.",
+    "price": 1599,
+    "currency": "USD",
+    "image": "assets/images/macbook_silver.png",
+    "specs": {
+      "chip": "M3 Pro",
+      "display": "14.2\"",
+      "ports": "HDMI, SDXC"
+    },
+    "featured": true
+  },
+  {
+    "id": 8,
+    "name": "MacBook Air 15\"",
+    "category": "Bilgisayar",
+    "tagline": "Fikirlerinize güç katın.",
+    "description": "Üretmek, çalışmak ve yeni fikirler geliştirmek için güçlü bir yardımcı. Geniş ekranı ve sade tasarımıyla çalışma alanınızı tamamlar.",
+    "price": 1299,
+    "currency": "USD",
+    "image": "assets/images/macbook_air.png",
+    "specs": {
+      "chip": "M2",
+      "weight": "3.3 lbs",
+      "design": "Fanless"
+    },
+    "featured": false
+  },
+  {
+    "id": 9,
+    "name": "MacBook Air 13\"",
+    "category": "Bilgisayar",
+    "tagline": "Fikirlerinize güç katın.",
+    "description": "Üretmek, çalışmak ve yeni fikirler geliştirmek için güçlü bir yardımcı. Geniş ekranı ve sade tasarımıyla çalışma alanınızı tamamlar.",
+    "price": 1099,
+    "currency": "USD",
+    "image": "assets/images/macbook_starlight.png",
+    "specs": {
+      "chip": "M2",
+      "battery": "18 hrs",
+      "display": "13.6\""
+    },
+    "featured": false
+  },
+  {
+    "id": 10,
+    "name": "iMac",
+    "category": "Bilgisayar",
+    "tagline": "Fikirlerinize güç katın.",
+    "description": "Üretmek, çalışmak ve yeni fikirler geliştirmek için güçlü bir yardımcı. Geniş ekranı ve sade tasarımıyla çalışma alanınızı tamamlar.",
+    "price": 1299,
+    "currency": "USD",
+    "image": "assets/images/imac.png",
+    "specs": {
+      "chip": "M3",
+      "display": "24\" 4.5K Retina",
+      "colors": "7 vibrant colors"
+    },
+    "featured": false
+  },
+  {
+    "id": 11,
+    "name": "iPad Pro 12.9\"",
+    "category": "Tablet",
+    "tagline": "İlham, her zaman yanınızda.",
+    "description": "Not almak, çizim yapmak ve içeriklerin keyfini çıkarmak için taşınabilir bir ekran. Yaratıcı fikirlerinize her yerde eşlik eder.",
+    "price": 1099,
+    "currency": "USD",
+    "image": "assets/images/ipad.png",
+    "specs": {
+      "chip": "M2",
+      "screen": "XDR",
+      "pencil": "Hover support"
+    },
+    "featured": false
+  },
+  {
+    "id": 12,
+    "name": "iPad Air",
+    "category": "Tablet",
+    "tagline": "İlham, her zaman yanınızda.",
+    "description": "Not almak, çizim yapmak ve içeriklerin keyfini çıkarmak için taşınabilir bir ekran. Yaratıcı fikirlerinize her yerde eşlik eder.",
+    "price": 599,
+    "currency": "USD",
+    "image": "assets/images/ipad_air.png",
+    "specs": {
+      "chip": "M1",
+      "display": "10.9\"",
+      "connectivity": "5G"
+    },
+    "featured": true
+  },
+  {
+    "id": 13,
+    "name": "iPad Mini",
+    "category": "Tablet",
+    "tagline": "İlham, her zaman yanınızda.",
+    "description": "Not almak, çizim yapmak ve içeriklerin keyfini çıkarmak için taşınabilir bir ekran. Yaratıcı fikirlerinize her yerde eşlik eder.",
+    "price": 499,
+    "currency": "USD",
+    "image": "assets/images/ipad_mini.png",
+    "specs": {
+      "chip": "A15 Bionic",
+      "display": "8.3\"",
+      "camera": "12MP Wide"
+    },
+    "featured": false
+  },
+  {
+    "id": 14,
+    "name": "Apple Watch Ultra 2",
+    "category": "Saat",
+    "tagline": "Günün ritmini yakalayın.",
+    "description": "Günlük hareketlerinizi ve bildirimlerinizi bileğinizden takip edin. Aktif yaşamınıza eşlik eden kullanışlı bir aksesuar.",
+    "price": 799,
+    "currency": "USD",
+    "image": "assets/images/watch.png",
+    "specs": {
+      "case": "Titanium",
+      "brightness": "3000 nits",
+      "gps": "Precision dual-frequency"
+    },
+    "featured": false
+  },
+  {
+    "id": 15,
+    "name": "Apple Watch Series 9",
+    "category": "Saat",
+    "tagline": "Günün ritmini yakalayın.",
+    "description": "Günlük hareketlerinizi ve bildirimlerinizi bileğinizden takip edin. Aktif yaşamınıza eşlik eden kullanışlı bir aksesuar.",
+    "price": 399,
+    "currency": "USD",
+    "image": "assets/images/watch_series9.png",
+    "specs": {
+      "chip": "S9 SiP",
+      "feature": "Double tap",
+      "carbon": "Neutral option"
+    },
+    "featured": false
+  },
+  {
+    "id": 16,
+    "name": "Apple Vision Pro",
+    "category": "Aksesuar",
+    "tagline": "Yeni bir bakış açısı.",
+    "description": "Dijital içeriklerle etkileşim kurmanın farklı bir yolunu keşfedin. Yenilikçi tasarım ve teknoloji bir arada.",
+    "price": 3499,
+    "currency": "USD",
+    "image": "assets/images/vision_pro.png",
+    "specs": {
+      "os": "visionOS",
+      "display": "Micro-OLED",
+      "control": "Eyes, hands, voice"
+    },
+    "featured": false
+  },
+  {
+    "id": 17,
+    "name": "AirPods Pro (2nd Gen)",
+    "category": "Ses",
+    "tagline": "Sesin güzel tarafı.",
+    "description": "Müzik, podcast ve sevdiğiniz sesler için tasarlandı. Günlük dinleme deneyiminize özenli bir dokunuş.",
+    "price": 249,
+    "currency": "USD",
+    "image": "assets/images/airpods.png",
+    "specs": {
+      "chip": "H2",
+      "audio": "Spatial Audio",
+      "case": "USB-C"
+    },
+    "featured": true
+  },
+  {
+    "id": 18,
+    "name": "AirPods Max",
+    "category": "Ses",
+    "tagline": "Sesin güzel tarafı.",
+    "description": "Müzik, podcast ve sevdiğiniz sesler için tasarlandı. Günlük dinleme deneyiminize özenli bir dokunuş.",
+    "price": 549,
+    "currency": "USD",
+    "image": "assets/images/airpods_max.png",
+    "specs": {
+      "driver": "Dynamic",
+      "cancellation": "Active Noise",
+      "materials": "Mesh canopy"
+    },
+    "featured": true
+  },
+  {
+    "id": 19,
+    "name": "HomePod",
+    "category": "Ses",
+    "tagline": "Sesin güzel tarafı.",
+    "description": "Müzik, podcast ve sevdiğiniz sesler için tasarlandı. Günlük dinleme deneyiminize özenli bir dokunuş.",
+    "price": 299,
+    "currency": "USD",
+    "image": "assets/images/homepod.png",
+    "specs": {
+      "audio": "Computational",
+      "home": "Smart Hub",
+      "sensing": "Room sensing"
+    },
+    "featured": false
+  },
+  {
+    "id": 20,
+    "name": "HomePod Mini",
+    "category": "Ses",
+    "tagline": "Sesin güzel tarafı.",
+    "description": "Müzik, podcast ve sevdiğiniz sesler için tasarlandı. Günlük dinleme deneyiminize özenli bir dokunuş.",
+    "price": 99,
+    "currency": "USD",
+    "image": "assets/images/homepod_mini.png",
+    "specs": {
+      "size": "3.3 inches",
+      "audio": "360-degree",
+      "colors": "5 colors"
+    },
+    "featured": true
+  }
+]
